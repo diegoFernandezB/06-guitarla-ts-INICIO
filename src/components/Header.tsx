@@ -1,6 +1,6 @@
 import { Dispatch, useMemo } from "react"
 import type { CartItem } from "../types"
-import { CartActions } from "../hooks/reducers/cart-reducer"
+import { CartActions } from "../reducers/cart-reducer"
 
 type HeaderProps = {
     cart: CartItem[]

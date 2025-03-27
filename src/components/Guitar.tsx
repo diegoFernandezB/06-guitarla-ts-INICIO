@@ -1,5 +1,5 @@
 import { Dispatch } from 'react'
-import { CartActions } from '../hooks/reducers/cart-reducer'
+import { CartActions } from '../reducers/cart-reducer'
 import type { Guitar } from '../types'
 
 type GuitarProps = {
